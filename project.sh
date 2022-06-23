@@ -1,1 +1,1 @@
-echo "this is a Jenkins push Git Project"
+echo "this is a Jenkins push2 Git Project"
