@@ -2,8 +2,7 @@ pipeline {
     agent any 
     stages {
         stage('Git Clone') {
-            steps 
-                git branch: 'fs', url: 'https://github.com/prajoth-b/jenkins.git'
+            steps {
                 sh "mvn clean -f Springboot-App"
             }
         }
